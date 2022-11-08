@@ -32,9 +32,11 @@
           </h1>
           <p class="hero__paragraph">
             You might be interested in checking the list of
-            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to have a glimpse at
-            <a class="hero__link" href="#project">my projects</a>. Currently I’m looking for a new
-            challenges so if you have one - <a class="hero__link" href="#contact">contact me</a> 😊
+            <a class="hero__link" href="#skills">my skills</a>. Don’t forget to
+            have a glimpse at
+            <a class="hero__link" href="#project">my projects</a>. Currently I’m
+            looking for a new challenges so if you have one -
+            <a class="hero__link" href="#contact">contact me</a> 😊
           </p>
           <a
             class="hero__contact"
@@ -88,26 +90,36 @@
         </article>
       </section>
       <section class="projects" id="project">
-        <h2 class="project__header">Recent projects</h2>
-        <p class="project__description">
+        <h2 class="projects__header">Recent projects</h2>
+        <p class="projects__description">
           I started my frontend developer path in 2019. In 2021 I had a break
           from studying but now I'm back to coding. Since then, I’ve built some
           projects. Here’s the list of the things I’ve done so far.
         </p>
         <div class="project-grid">
           <article class="project">
-            <h3 class="project__title">
-              <span>project:</span><span>nazwa projektu</span>
-            </h3>
-            <p><span>description:</span><span>opis</span></p>
-            <p>
-              <span>demo:</span
-              ><span><a href="#" title="opis">&lt;see here&gt;</a></span>
-            </p>
-            <p>
-              <span>github:</span
-              ><span><a href="#" title="opis">&lt;source code&gt;</a></span>
-            </p>
+            <div class="project__window">
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+              <span class="project__circle"></span>
+            </div>
+            <div class="project__content">
+              <img src="../assets/img/github-icon.svg" alt="" />
+              <h3 class="project__grid project__title">
+                <span class="project__label">project:</span><span>nazwa projektu</span>
+              </h3>
+              <p class="project__grid">
+                <span class="project__label">description:</span><span>opis</span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">demo:</span
+                ><span><a class="project__link" href="#" title="opis">&lt;see here&gt;</a></span>
+              </p>
+              <p class="project__grid">
+                <span class="project__label">github:</span
+                ><span><a class="project__link" href="#" title="opis">&lt;source code&gt;</a></span>
+              </p>
+            </div>
           </article>
         </div>
       </section>
