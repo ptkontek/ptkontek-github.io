@@ -1,5 +1,5 @@
 .hero {
-  padding: 74px 16px 0;
+  padding: 80px 16px 0;
   @media (min-width: $tablet) {
     max-width: 768px;
     margin: 0 auto;
@@ -30,6 +30,7 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 40px;
+      margin-top: 68px;
     }
   }
   &__description {
@@ -42,7 +43,7 @@
       font-size: 20px;
       line-height: 36px;
       max-width: 786px;
-      margin: 40px auto 110px;
+      margin: 40px auto 140px;
       position: relative;
       &::before,
       &::after {
@@ -70,6 +71,7 @@
     @media (min-width: $desktop) {
       font-size: 30px;
       line-height: 40px;
+      margin: 48px auto 24px;
     }
   }
   &__hello {
