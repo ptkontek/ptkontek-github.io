@@ -1,0 +1,32 @@
+.contact {
+  background: $lightBlue;
+  padding: 64px 16px 88px;
+  &__header {
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: $text;
+  }
+  &__links{
+    text-align: center;
+  }
+  &__mail{
+    border-radius: 64px;
+    color: $white;
+    padding: 4px 10px;
+    background: $linkBlue;
+    font-size: 14px;
+    line-height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+  }
+}
