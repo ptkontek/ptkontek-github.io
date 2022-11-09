@@ -4,6 +4,9 @@
     max-width: 768px;
     margin: 0 auto;
   }
+  @media (min-width: $desktop) {
+    max-width: 100%;
+  }
   &__center {
     position: absolute;
     left: calc(50% + 90px);
@@ -38,7 +41,27 @@
     @media (min-width: $desktop) {
       font-size: 20px;
       line-height: 36px;
+      max-width: 786px;
+      margin: 0 auto;
       margin-bottom: 110px;
+      position: relative;
+      &::before,
+      &::after {
+        width: 83px;
+        height: 255px;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+      }
+      &::before {
+        background: url("../assets/img/left.svg");
+        right: 100%;
+      }
+      &::after {
+        background: url("../assets/img/right.svg");
+        left: 100%;
+      }
     }
   }
   &__header {
@@ -99,5 +122,6 @@
 
   &__special {
     color: $blue;
+    white-space: nowrap;
   }
 }
