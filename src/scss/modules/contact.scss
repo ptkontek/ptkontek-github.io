@@ -1,12 +1,17 @@
 .contact {
   background: $lightBlue;
-  padding: 64px 16px 88px;
+  padding: 64px 16px 20px;
   &__header {
     margin-top: 0px;
     font-weight: 700;
     font-size: 36px;
     line-height: 48px;
     text-align: center;
+    color: $textDark;
+    @media (min-width: $desktop) {
+      font-size: 42px;
+      line-height: 56px;
+    }
   }
   &__description {
     font-weight: 300;
@@ -14,11 +19,22 @@
     line-height: 32px;
     text-align: center;
     color: $text;
+    @media (min-width: $desktop) {
+      font-size: 20px;
+      line-height: 36px;
+    } 
   }
-  &__links{
+  &__links {
     text-align: center;
+    @media (min-width: $desktop) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 650px;
+      margin: 110px auto;
+    }
   }
-  &__mail{
+  &__mail {
     border-radius: 64px;
     color: $white;
     padding: 4px 10px;
@@ -28,7 +44,7 @@
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
-    @media (min-width: $tablet){
+    @media (min-width: $tablet) {
       font-size: 18px;
       padding: 4px 24px;
     }
