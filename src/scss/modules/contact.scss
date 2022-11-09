@@ -28,5 +28,9 @@
     display: inline-block;
     text-decoration: none;
     font-weight: 700;
+    @media (min-width: $tablet){
+      font-size: 18px;
+      padding: 4px 24px;
+    }
   }
 }
