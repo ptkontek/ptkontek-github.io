@@ -1,5 +1,7 @@
 import "../scss/main.scss";
 
+console.log("Hi, I'm Patrycja - nice to meet you!")
+
 fetch("https://api.github.com/users/ptkontek/repos?sort=created&direction=desc")
   .then((res) => res.json())
   .then((res) => {

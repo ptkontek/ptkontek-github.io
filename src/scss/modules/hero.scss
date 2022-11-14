@@ -101,12 +101,12 @@
     box-sizing: content-box;
     width: 96px;
     height: 96px;
-    border: 16px solid #f6f9fd;
+    border: 16px solid #E2E8C0;
     border-radius: 50%;
     @media (min-width: $desktop) {
       width: 178px;
       height: 178px;
-      border: 24px solid #f6f9fd;
+      border: 24px solid #F9F1DC;
     }
   }
   &__image-container {
