@@ -1,4 +1,4 @@
-![cover](https://ptkontek.github.io/PK-og.png)
+![image](./PK-og.png)
 
 # Patrycja Kontek - junior frontend developer
 
