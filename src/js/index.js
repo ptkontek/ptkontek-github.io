@@ -1,6 +1,6 @@
 import "../scss/main.scss";
 
-console.log("Hi, I'm Patrycja - nice to meet you!")
+console.log("Hi, I'm Patrycja - nice to meet you!");
 
 fetch("https://api.github.com/users/ptkontek/repos?sort=created&direction=desc")
   .then((res) => res.json())
@@ -28,7 +28,7 @@ fetch("https://api.github.com/users/ptkontek/repos?sort=created&direction=desc")
          <p class="project__grid">
            <span class="project__label">demo:</span
            ><span
-             ><a class="project__link" href="${homepage} " title="${name} - demo"
+             ><a class="project__link" href="${homepage}" target="_blank" rel="noopener noreferer" title="${name} - demo"
                >&lt;see here&gt;</a
              ></span
            >
@@ -36,7 +36,7 @@ fetch("https://api.github.com/users/ptkontek/repos?sort=created&direction=desc")
          <p class="project__grid">
            <span class="project__label">github:</span
            ><span
-             ><a class="project__link" href="${html_url}" title="${name} - code"
+             ><a class="project__link" href="${html_url}" target="_blank" rel="noopener noreferer" title="${name} - code"
                >&lt;source code&gt;</a
              ></span
            >
