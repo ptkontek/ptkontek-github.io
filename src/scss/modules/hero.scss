@@ -23,6 +23,9 @@
     text-decoration: none;
     font-weight: 700;
     margin-top: 48px;
+    &:hover{
+      opacity: 0.9;
+    }
     @media (min-width: $tablet) {
       font-size: 18px;
       padding: 4px 24px;
