@@ -1,17 +1,19 @@
-![cover](https://ptkontek.github.io/PK.png)
+![cover](https://ptkontek.github.io/PK-og.png)
 
-# PATRYCJA KONTEK - JUNIOR FRONTEND DEVELOPER
+# Patrycja Kontek - junior frontend developer
 
 My portfolio website.
 
-## TOOLS
+## Tools
 
 - Webpack
 - HTML + CSS + JS
 - GitHub API
 
-## SCRIPTS
+## Scripts
 
 `npm run start` - runs development mode
+
 `npm run build` - runs build process for production
+
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
